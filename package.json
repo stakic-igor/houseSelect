@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Simple weather app with open weather API",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "susy": "^2.2.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stakic-igor/weatherApp.git"
+  },
+  "author": "Igor Stakic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stakic-igor/weatherApp/issues"
+  },
+  "homepage": "https://github.com/stakic-igor/weatherApp#readme"
+}

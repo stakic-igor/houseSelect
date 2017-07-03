@@ -1,0 +1,14 @@
+.mast-head {
+  border-bottom: 1px solid $lightGray;
+  box-sizing: border-box;
+  padding: 1.125rem 0;
+}
+.logo{
+
+  //element
+  &__img {
+    display: block; //removes 4px bottom margin on images
+    width: auto;
+    height: 100%;
+  }
+}

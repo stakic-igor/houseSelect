@@ -4,6 +4,7 @@
   "description": "Simple weather app with open weather API",
   "main": "index.js",
   "dependencies": {
+    "flexboxgrid-sass": "^8.0.5",
     "gulp": "^3.9.1"
   },
   "devDependencies": {

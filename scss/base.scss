@@ -1,13 +1,16 @@
-@import 'partials/_body';
 
+@import 'flexboxgrid';
 @import 'modules/_vars',
         'modules/_mixin',
         'modules/_colors';
 
-@import 'partials/_containers',
+@import 'partials/_body';
+
+@import //'partials/_containers', 
         'partials/_pre-header',
         'partials/_header',
         'partials/_main',
+        'partials/_properties', 
         'partials/_buttons',
         'partials/_bottom',
-        'partials/_footer'; 
+        'partials/_footer';   

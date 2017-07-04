@@ -3,10 +3,10 @@
 @import 'modules/_vars',
         'modules/_mixin',
         'modules/_colors';
+ 
+@import 'partials/_global';
 
-@import 'partials/_body';
-
-@import //'partials/_containers', 
+@import 'partials/_containers', 
         'partials/_pre-header',
         'partials/_header',
         'partials/_main',

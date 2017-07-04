@@ -13,6 +13,7 @@
   &__img {
     display: block; //removes bottom margin
     height: auto;
+    margin-bottom:1.250rem; 
     width: 100%;
   }
     //element
@@ -33,5 +34,17 @@
     &--red {
       color: $red;
     }
+  }
+  //element
+  &__info {
+    color: #999;
+    font-size: 0.875rem;
+    margin: 0.750rem 0;
+    line-height: 1.5rem;
+  }
+  &__price {
+    color: #4A4A4A;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 }

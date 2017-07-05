@@ -6,29 +6,29 @@
   font-size: 0; //to remove margin of 4px between inline-block elements
   //element
   &__list {
+  }
     //element
-    &__item {
-      display: inline-block;
-      //element
-      &__link {
-        color: rgba(78, 78, 78, 1);
-        display: block;
-        font-size: 14px;
-        font-variant: small-caps;
-        text-decoration: none;
-        text-transform: lowercase;
-        padding: 8px 20px;
-        transition: all 280ms ease-in;
-        //modify
-        &--active {
-          color: $lightGray;
-          background-color: $red;
-        }
-        &:hover {
-          color: $lightGray;
-          background-color: $red;
-        }
+  &__item {
+    display: inline-block;
+    //element
+  }
+  &__link {
+      color: rgba(78, 78, 78, 1);
+      display: block;
+      font-size: 14px;
+      font-variant: small-caps;
+      text-decoration: none;
+      text-transform: lowercase;
+      padding: 8px 20px;
+      transition: all 280ms ease-in;
+      //modify
+      &--active {
+        color: $lightGray;
+        background-color: $red;
+      }
+      &:hover {
+        color: $lightGray;
+        background-color: $red;
       }
     }
-  }
 }

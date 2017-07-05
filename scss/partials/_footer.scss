@@ -7,11 +7,16 @@
 .footer-links{
   margin-bottom: 2rem;
   &__item{
-    margin-bottom: 0.750rem;
+    margin-bottom: 0.500rem;
   }
   &__link {
-    color: rgba(#929292, 1);
+    color: rgba(#999, 1);
     font-size: 0.750rem;
     text-decoration: none;
+    transition: color 280ms ease-in;
+    &:hover, &:focus {
+      outline: none;
+      color: lighten(#999, 10%);
+    }
   }
 }

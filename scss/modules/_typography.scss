@@ -1,8 +1,17 @@
+.heading-2 {
+  &--blog-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: $baseFontClr;
+    line-height: 1.5rem;
+  }
+}
+
 .heading-3{
 
   &--footer {
     color: rgba(#fff, 1);
-    font-size: 12px;
-    margin-bottom: 24px;
+    font-size: 0.875rem;
+    margin-bottom: 0.750rem;
   }
 }

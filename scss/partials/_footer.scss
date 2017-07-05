@@ -1,4 +1,17 @@
 .footer {
   background-color: $darkGray;
   box-sizing: border-box;
+  padding: 4rem 0 2rem 0;
+}
+
+.footer-links{
+  margin-bottom: 2rem;
+  &__item{
+    margin-bottom: 0.750rem;
+  }
+  &__link {
+    color: rgba(#929292, 1);
+    font-size: 0.750rem;
+    text-decoration: none;
+  }
 }

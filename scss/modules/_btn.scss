@@ -1,0 +1,15 @@
+.btn {
+  display: inline-block;
+  border:1px solid transparent;
+  user-select: none;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+
+  &--newsletter {
+    background-color: rgba(#1d262b, 1);
+    font-size: 12px;
+    color: rgba(#fff, 1);
+    padding:18px 20px;
+  }
+}

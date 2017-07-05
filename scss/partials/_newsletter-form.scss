@@ -1,0 +1,18 @@
+.form {
+
+  &__newsletter {
+    font-size: 0; //removes margin between inline styles elements
+    &__input {
+      border: 1px solid rgba(#263138, 1);
+      background-color: rgba(#263138, 1);
+      color: rgba(#fff, 1);
+      box-sizing: border-box;
+      display:inline-block;
+      font-size: 12px;
+      padding: 18px 20px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

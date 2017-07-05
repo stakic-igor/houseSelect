@@ -2,7 +2,9 @@
 @import 'flexboxgrid';
 @import 'modules/_vars',
         'modules/_mixin',
-        'modules/_colors';
+        'modules/_colors',
+        'modules/_typography',
+        "modules/_btn";
  
 @import 'partials/_global';
 
@@ -13,4 +15,5 @@
         'partials/_properties', 
         'partials/_buttons',
         'partials/_bottom',
-        'partials/_footer';   
+        'partials/_newsletter-form',
+        'partials/_footer';

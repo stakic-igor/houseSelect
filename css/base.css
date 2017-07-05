@@ -27,9 +27,7 @@
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -1rem;
-  margin-left: -1rem; }
+  flex-wrap: wrap; }
 
 .row.reverse {
   -webkit-box-direction: reverse;
@@ -1749,7 +1747,7 @@ body {
   padding: 5.625rem 0; }
   .bottom__contact-img {
     position: relative;
-    bottom: -6.45rem;
+    bottom: -5.625rem;
     display: block;
     width: 100%;
     height: auto; }
